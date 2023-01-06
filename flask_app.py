@@ -11,7 +11,7 @@ def send_email(name,email,message,phone):
         smtp_ssl_host = 'smtp.gmail.com'  # smtp.mail.yahoo.com
         smtp_ssl_port = 465
         sender_address = 'server.mailbridge@gmail.com'
-        sender_pass = 'agcqkrtmqhktmigc'
+        sender_pass = ''
         sender = 'contactquickes@gmail.com'
         targets = 'sujithmanick@gmail.com'
         msg = MIMEText('Name : {}\nMailid : {}\nMessage : {}\nPhone : {}'.format(name,email,message,phone))
@@ -31,7 +31,7 @@ def send_email_user(email):
         smtp_ssl_host = 'smtp.gmail.com'  # smtp.mail.yahoo.com
         smtp_ssl_port = 465
         sender_address = 'server.mailbridge@gmail.com'
-        sender_pass = 'agcqkrtmqhktmigc'
+        sender_pass = ''
         sender = 'contactquickes@gmail.com'
         targets = email
         msg = MIMEText('Thank you for contacting i will get back to you soon 😊!')
